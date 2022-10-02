@@ -38,7 +38,7 @@
     </header>
 
     <main class="main-inner">
-      <header class="inner-header">
+      <section class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -48,7 +48,7 @@
             <a class="breadcrumbs-link">Гостиницы Седоны</a>
           </li>
         </ul>
-      </header>
+      </section>
       <section class="catalog-products">
         <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -109,7 +109,7 @@
 
           <fieldset class="sorting-by-price">
 
- <!--Добавить фильтр по цене (будет позже разбор)-->
+            <!--Добавить фильтр по цене (будет позже разбор)-->
 
           </fieldset>
 
@@ -128,9 +128,6 @@
           <span class="visually-hidden">Показать список</span>
         </a>
         <a class="button" href="#">
-
-<!--Как отделить секцию с фильтрами от каталога?-->
-
           <span class="visually-hidden">Показать карточки</span>
         </a>
         <a class="button" href="#">
@@ -139,16 +136,57 @@
 
         <div class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="#" alt="#">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
           <p>Гостиница</p>
           <b class="product-card-price">От 4000 ₽</b>
           <a class="product-card-button button" href="">Подробнее</a>
           <button name="button">В избранное</button>
+          <div class="rating-stars">
+            <img class="visually-hidden" href="#" alt="Рейтинг отеля 4 из 5 звезд">
+            <img class="visually-hidden" href="#" alt="Рейтинг отеля 4 из 5 звезд">
+            <img class="visually-hidden" href="#" alt="Рейтинг отеля 4 из 5 звезд">
+            <img class="visually-hidden" href="#" alt="Рейтинг отеля 4 из 5 звезд">
+          </div>
+          <span class="rating">Рейтинг:8,5</span>
+        </div>
+        <div class="product-card">
+          <a class="product-card-link" href="product.html">
+            <img class="product-card-image" src="#" alt="#">
+            <h3 class="product-card-title">Villas at Poco Diablo</h3>
+          </a>
+          <p>Гостиница</p>
+          <b class="product-card-price">От 5000 ₽</b>
+          <a class="product-card-button button" href="">Подробнее</a>
+          <button name="button">В избранное</button>
+          <img class="visually-hidden" href="#" alt="Рейтинг отеля 4 из 5 звезд">
+          <span class="rating">Рейтинг:9,2</span>
+        </div>
+        <div class="product-card">
+          <a class="product-card-link" href="product.html">
+            <img class="product-card-image" src="#" alt="#">
+            <h3 class="product-card-title">Desert Quail Inn</h3>
+          </a>
+          <p>Гостиница</p>
+          <b class="product-card-price">От 2500 ₽</b>
+          <a class="product-card-button button" href="">Подробнее</a>
+          <button name="button">В избранное</button>
 
-<!--BUTTON не знаю как написать правильно-->
-
+          <img class="visually-hidden" href="#" alt="Рейтинг отеля 3 из 5 звезд">
+          <span class="rating">Рейтинг:6,9</span>
+        </div>
+        <div class="product-card">
+          <a class="product-card-link" href="product.html">
+            <img class="product-card-image" src="#" alt="#">
+            <h3 class="product-card-title">GreenTree Inn</h3>
+          </a>
+          <p>Гостиница</p>
+          <b class="product-card-price">От 1500 ₽</b>
+          <a class="product-card-button button" href="">Подробнее</a>
+          <button name="button">В избранное</button>
+          <img class="visually-hidden" href="#" alt="Рейтинг отеля 2 из 5 звезд">
+          <span class="rating">Рейтинг:5,0</span>
         </div>
 
         <ul class="pagination">
@@ -169,30 +207,13 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">5</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">6</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">7</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">8</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">9</a>
-          </li>
+          <li><span>...</span></li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-next" href="#">
               <span class="visually-hidden">Следующая страница</span>
-
-<!--с 5 под страницу стоят  три точки. как сделать это?-->
-
             </a>
           </li>
         </ul>
@@ -227,7 +248,7 @@
       </section>
       <section class="footer-logo">
         <a class="footer-logo" href="index.html">
-          <img class="page-footer-logo" alt="Логотип сайта Седона" src="">
+          <img class="page-footer-logo" src="https://htmlacademy.ru/" alt="Логотип сайта Седона">
         </a>
       </section>
     </footer>
