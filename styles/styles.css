@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: top;
+  text-decoration: none;
+}
+.main-index {
+border:1px solid red;
+width: 1200px;
+}
+.background-welcome {
+  background-image: url("../images/welcome_dow.png"), url("../images/index_background.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 485px;
+}
+.welcome-img {
+  align-content: center;
+}
+.text-welcome-1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  vertical-align: top;
+  text-transform: uppercase;
+}
+.text-welcome-2 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  vertical-align: top;
+}
+.subscribe {
+  background-image: url("../images/subscribe_background.jpg");
+  background-position: center;
+  width: 1200px;
+  height: 415px;
+}

@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -11,6 +12,7 @@
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
           <img class="page-header-logo" src="images/logo/logo.svg" width="140" height="70" alt="Логотип сайта Седона">
+
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -44,17 +46,13 @@
     </header>
 
     <main class="main-index">
-      <section class="">
-        <!--Дописать класс-->
-        <img class="visually-hidden" src="images/index_background.jpg" width="1200" height="485" alt="">
-        <img class="visually-hidden" src="images/welcome.png" width="458" height="352" alt="Добро пожаловать в Седону">
-        <img class="visually-hidden" src="images/welcome_down.png" width="1200" height="57" alt="">
+      <section class="background-welcome">
+        <img class="welcome-img" src="images/welcome.png" width="458" height="352" alt="Добро пожаловать в Седону">
       </section>
-
       <section class="background">
-        <h1>Седона — небольшой городок в Аризоне,<br>
+        <h1 class="text-welcome-1">Седона — небольшой городок в Аризоне,<br>
           заслуживающий большего!</h1>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <p class="text-welcome-2">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <section class="advantages">
         <h2 class="">Преимущества</h2>
@@ -121,7 +119,6 @@
         <a class="button button-all" href="catalog.html">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscribe">
-        <img src="images/subscribe_background.jpg" width="1200" height="415" alt="Фон подписки">
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
