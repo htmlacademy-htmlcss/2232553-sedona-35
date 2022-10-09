@@ -26,20 +26,23 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 700px;
   text-align: left;
   vertical-align: top;
   text-decoration: none;
+  color: inherit;
 }
 .main-index {
 border:1px solid red;
 width: 1200px;
 }
 .background-welcome {
-  background-image: url("../images/welcome_dow.png"), url("../images/index_background.jpg");
-  background-position: center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background: url("../images/welcome.png") center center/40% auto no-repeat,
+              url("../images/welcome_down.png") center bottom/100% auto no-repeat,
+              url("../images/index_background.jpg") center center/100% auto no-repeat;
+
+  color: #000000;
+  background-color: #ffffff;
   height: 485px;
 }
 .welcome-img {
@@ -63,4 +66,122 @@ width: 1200px;
   background-position: center;
   width: 1200px;
   height: 415px;
+}
+
+.advantages-title,.recommendations-title {
+  font-weight: 700px;
+  font-Size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advantages-description, .recommendations-description {
+  font-weight: 400px;
+  font-Size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.search-hotel-title {
+  font-weight: 700px;
+  font-Size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.search-hotel-description {
+  font-weight: 400px;
+  font-Size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.button-button-all {
+  font-weight: 700px;
+  font-Size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+.footer-contacts-phone {
+  font-weight: 400px;
+  font-Size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+/*catalog-page*/
+
+.inner-header-title {
+  font-weight: 700px;
+  font-size: 60px;
+  line-height: 78px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.inner-header {
+  background: url("../images/catalog_background.jpg") center center/100% auto no-repeat;
+  color: #000000;
+  background-color: #ffffff;
+  height: 485px;
+}
+.breadcrumbs {
+  color: #ffffff;
+}
+.breadcrumbs-link {
+  color: inherit;
+}
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700px;
+  color: #000000;
+}
+.control-label {
+  font-weight: 700px;
+}
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400px;
+  color: #000000;
+}
+.search-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
+  color: #000000;
+}
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700px;
+  color: #000000;
+  text-decoration: none;
+
+}
+.product-name .product-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
+}
+.rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400px;
+}
+.product-card-button .product-button-favorite {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700px;
+  text-transform: uppercase;
 }
